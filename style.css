@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 150px;
+    padding: 20px;
+    margin-top: 50px;
+    width: auto;
+    background-color: hsl(168, 37%, 73%);
+}
+@font-face {
+    font-family: 'karla';
+    src:url('/assets/fonts/Karla-Bold.ttf') format('ttf');
+    font-weight: 400 ;
+    
+}
+
+.container{
+    width: 70%;
+    background-color: hsl(144, 20%, 95%);
+    padding: 80px;
+    margin: 100px;
+    border-radius: 10px;
+}h1{
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.input-container{
+    
+    display: flex;
+    padding:  10px;
+    margin: 10px ;
+ 
+}
+
+label{
+    margin-bottom: 10px;
+    padding-right: 15px;
+    font-size: 17px;
+    min-width: 50px;
+}
+input:not(type="checkbox"){
+    font-size: 20px;
+    height: 50px;
+   
+}
+
+button{
+    background-color: hsl(169, 82%, 27%);
+    width: 500px;
+    min-height: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+   
+
+  @media (max-width: 400px) {
+  
+  }
+  
+  @media (max-width: 792px) {
+  }
+  
+  @media (max-width: 900px) {
+  }
+  
+  @media (max-width: 1300px) {
